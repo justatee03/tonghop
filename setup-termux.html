@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Cài Đặt Termux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+        pre {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Hướng Dẫn Cài Đặt Termux</h2>
+        <p><strong>Link tải app Termux:</strong> <a href="https://f-droid.org/repo/com.termux_1000.apk" target="_blank">Click</a></p>
+        <h3>Lệnh setup Termux:</h3>
+        <pre>
+termux-setup-storage
+
+apt update
+
+apt upgrade
+
+pkg install php
+
+pkg install python
+
+pkg install git
+
+pkg install wget
+
+pip install --upgrade pip
+
+pip install requests
+        </pre>
+    </div>
+</body>
+</html>
